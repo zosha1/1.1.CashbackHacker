@@ -17,7 +17,7 @@ public class CashbackHackServiceTest {
     public void testRemain1000() {
         CashbackHackService cashbackHackService = new CashbackHackService();
 
-        assertEquals(1000, cashbackHackService.remain(1000));
+        assertEquals(0, cashbackHackService.remain(1000));
     }
 
     @Test
